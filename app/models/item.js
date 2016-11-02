@@ -9,5 +9,5 @@ export default DS.Model.extend({
   pricePerOz: DS.attr(),
   effects: DS.attr(),
   description: DS.attr(),
-  reviews: DS.hasMany('review', { async:true })
+  // reviews: DS.hasMany('review', { async:true })
 });

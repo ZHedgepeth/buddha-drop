@@ -13,5 +13,15 @@ export default Ember.Route.extend({
       newItem.save();
       this.transitionTo('index');
     },
+
+    update(item, params) {
+      Object.keys(params).forEach(function(key) {
+        if(params[key]!==undefined) {
+          item.set(key,params[key]);
+        }
+      });
+      item.save();
+      this.transitionTo('index');
+    }
   }
 });

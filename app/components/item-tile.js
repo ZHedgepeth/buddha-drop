@@ -9,6 +9,9 @@ export default Ember.Component.extend({
       },
       imageHide() {
         this.set('isImageShowing', false);
+      },
+      update(item, params) {
+        this.sendAction('update', item, params);
       }
     }
   });

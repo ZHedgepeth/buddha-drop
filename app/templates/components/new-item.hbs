@@ -1,1 +1,70 @@
-{{yield}}
+{{#if addNewItem}}
+  <h1>New Item</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="strain">Strain</label>
+        {{input value=strain id="strain"}}
+      </div>
+
+      <div class="form-group">
+        <label for="type">Type</label>
+        {{input value=type id="type"}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image URL</label>
+        {{input value=image id="image"}}
+      </div>
+
+      <div class="form-group">
+        <label for="pricePerGram">Price per Gram</label>
+        {{input value=pricePerGram id="pricePerGram"}}
+      </div>
+
+      <div class="form-group">
+        <label for="pricePerEighth">Price per Eighth</label>
+        {{input value=pricePerEighth id="pricePerEighth"}}
+      </div>
+
+      <div class="form-group">
+        <label for="pricePerOz">Price per Ounce</label>
+        {{input value=pricePerOz id="pricePerOz"}}
+      </div>
+
+      <div class="form-group">
+        <label for="happy">Happiness level</label>
+        {{input value=happy id="happy"}}
+      </div>
+
+      <div class="form-group">
+        <label for="euphoric">Euphoric level</label>
+        {{input value=euphoric id="euphoric"}}
+      </div>
+
+      <div class="form-group">
+        <label for="relaxed">Relaxed level</label>
+        {{input value=relaxed id="relaxed"}}
+      </div>
+
+      <div class="form-group">
+        <label for="uplifted">Uplifted level</label>
+        {{input value=uplifted id="uplifted"}}
+      </div>
+
+      <div class="form-group">
+        <label for="creative">Creative level</label>
+        {{input value=creative id="creative"}}
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        {{input value=description id="description"}}
+      </div>
+
+      <button {{action 'saveItem1'}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'itemFormShow'}}>New Item</button>
+{{/if}}

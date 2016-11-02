@@ -6,12 +6,12 @@ export default Ember.Route.extend({
       items: this.store.findAll('item'),
       reviews: this.store.findAll('review')
     });
+  },
+  actions: {
+    saveItem3(params) {
+      var newItem = this.store.createRecord('item', params);
+      newItem.save();
+      this.transitionTo('index');
+    },
   }
-  // actions: {
-  //   saveItem3(params) {
-  //     var newItem = this.store.createRecord('item', params);
-  //     newItem.save();
-  //     this.transitionTo('index');
-  //   },
-  // }
 });

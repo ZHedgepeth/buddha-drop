@@ -1,0 +1,11 @@
+<h1>Welcome to Buddha Drop</h1>
+
+<h3>Available Ganja</h3>
+
+<ul>
+  {{#each model.items as |item|}}
+    {{item-tile item=item}}
+  {{/each}}
+</ul>
+
+<hr>

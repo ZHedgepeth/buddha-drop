@@ -1,0 +1,29 @@
+<img src={{item.image}}>
+
+<h4>General Facts: </h4>
+<div class="container">
+  <div class="row">
+    <div class="col-md-5">
+      <ul>
+        <li>Type: {{item.type}}</li>
+        <li>Effects:
+          <ul>
+            <li>Happy: {{item.effects.happy}}%</li>
+            <li>Euphoric: {{item.effects.euphoric}}%</li>
+            <li>Relaxed: {{item.effects.relaxed}}%</li>
+            <li>Creative: {{item.effects.creative}}%</li>
+            <li>Uplifted: {{item.effects.uplifted}}%</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-5">
+      <li>Price per Gram: ${{item.pricePerGram}}</li>
+      <li>Price per Eighth Oz: ${{item.pricePerEighth}}</li>
+      <li>Price per Ounce: ${{item.pricePerOz}}</li>
+    </div>
+  </div>
+</div>
+<h5>More Information</h5>
+<p>{{item.description}}</p>

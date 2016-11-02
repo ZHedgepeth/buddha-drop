@@ -1,0 +1,8 @@
+<li>
+  {{#link-to 'item' item.id}}{{item.strain}}{{/link-to}}
+  {{#if isImageShowing}}
+    <p><img src={{item.image}} alt={{item.type}} {{action 'imageHide'}} ></p>
+  {{else}}
+  <button {{action 'imageShow'}}>Show Image</button>
+  {{/if}}
+</li>

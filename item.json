@@ -1,0 +1,41 @@
+{ "items": [{
+    "strain": "Gorilla Glue",
+    "type": "Hybrid",
+    "image": "http://www.weedist.com/wp-content/uploads/2015/02/My-Favorite-Strains-Gorilla-Glue-4-Weedist.jpg",
+    "pricePerGram": 10,
+    "pricePerEighth": 40,
+    "pricePerOz": 150,
+    "effects": {
+      "happy": 90,
+      "euphoric": 85,
+      "relaxed": 70,
+      "uplifted": 90,
+      "creative": 100
+      },
+    "description": "Hitting the market in summer of 2016, Gorilla Glue #1 by GG Strains is the potent and flavorful sister strain to Gorilla Glue #4, who took the fast lane to fame in recent years after snagging several Cannabis Cup awards. This indica-dominant phenotype has a more piney aroma than her sister, though they were bred from the same parent genetics (Chem’s Sister, Sour Dubb, and Chocolate Diesel). Patients typically look to GG #1’s heavy-handed effects to treat pain and sleeplessness."
+  }, {
+    "strain": "Purple Haze",
+    "type": "Sativa",
+    "image": "http://www.marijuanaseedstrainreview.com/wp-content/uploads/2015/01/purple-haze.jpg",
+    "pricePerGram": 12,
+    "pricePerEighth": 45,
+    "pricePerOz": 160,
+    "effects": {
+      "happy": 95,
+      "euphoric": 100,
+      "relaxed": 90,
+      "uplifted": 80,
+      "creative": 70
+      },
+    "description": "Named after Jimi Hendrix’s 1967 classic, Purple Haze delivers a dreamy burst of euphoria that brings veteran consumers back to their psychedelic heyday. This nostalgic sativa staple remains cherished for its high-energy cerebral stimulation that awakens creativity and blissful contentment throughout the day. Purple Haze is believed to have descended from parent strains Purple Thai and Haze, who pass on a mix of sweet and earthy flavors underscored by notes of berry and sharp spice. Following her 8 to 9 week flowering time, Purple Haze buds typically acquire vibrant hues of lavender that further justify the naming of this strain."
+  }],
+  "reviews": [{
+    "author": "John Doe",
+    "rating": 8,
+    "content": "I couldn't stand up for three hours.. Toasty!"
+  }, {
+    "author": "Stacey Smiles",
+    "rating": 6,
+    "content": "Purple Haze was great but I think I was too medicated :/"
+  }]
+}

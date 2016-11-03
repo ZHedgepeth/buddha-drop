@@ -17,9 +17,9 @@ export default Ember.Component.extend({
         strain: this.get('strain'),
         type: this.get('type'),
         image: this.get('image'),
-        pricePerGram: this.get('pricePerGram'),
-        pricePerEighth: this.get('pricePerEighth'),
-        pricePerOz: this.get('pricePerOz'),
+        pricePerGram: parseInt(this.get('pricePerGram')),
+        pricePerEighth: parseInt(this.get('pricePerEighth')),
+        pricePerOz: parseInt(this.get('pricePerOz')),
         effects: {
           happy: happyUserValue,
           euphoric: euphoricUserValue,

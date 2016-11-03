@@ -28,6 +28,7 @@ export default Ember.Component.extend({
           },
           description: this.get('description'),
       };
+      console.log(params);
       this.set('updateItemForm', false);
       this.sendAction('update', item, params);
     }

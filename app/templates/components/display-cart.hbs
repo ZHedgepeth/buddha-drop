@@ -1,0 +1,7 @@
+<h4>Shopping Cart</h4>
+
+{{#each shoppingCart.items as |item|}}
+<li>
+  {{item.strain}} - is ${{item.pricePerGram}} per gram
+</li>
+{{/each}}

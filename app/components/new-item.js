@@ -8,11 +8,11 @@ export default Ember.Component.extend({
     },
 
     saveItem1() {
-      var happyUserValue = this.get('happy');
-      var euphoricUserValue = this.get('euphoric');
-      var relaxedUserValue = this.get('relaxed');
-      var upliftedUserValue = this.get('uplifted');
-      var creativeUserValue = this.get('creative');
+      var happyUserValue = parseInt(this.get('happy'));
+      var euphoricUserValue = parseInt(this.get('euphoric'));
+      var relaxedUserValue = parseInt(this.get('relaxed'));
+      var upliftedUserValue = parseInt(this.get('uplifted'));
+      var creativeUserValue = parseInt(this.get('creative'));
       var params = {
         strain: this.get('strain'),
         type: this.get('type'),

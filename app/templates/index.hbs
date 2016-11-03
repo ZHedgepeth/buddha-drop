@@ -4,10 +4,12 @@
 
 <ul>
   {{#each model.items as |item|}}
-    {{item-popularity item}} {{item-tile item=item update="update"}}
+    {{item-tile item=item update="update"}} {{item-price item}}
   {{/each}}
 </ul>
 
 {{new-item saveItem2='saveItem3'}}
 
 <hr>
+
+{{display-cart}}
